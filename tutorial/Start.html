@@ -8,36 +8,45 @@
       
       
       
+      
+        <link rel="prev" href="../viewer/Viewer.html">
+      
+      
+        <link rel="next" href="../map/Byaml.html">
+      
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.8">
     
     
       
-        <title>Track Tutorial - Track Studio</title>
+        <title>Getting Started - Track Studio</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6e60f8b8.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
         
-      
-    
-    
-    
-      
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
+    
     
     
   </head>
@@ -48,7 +57,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     
@@ -58,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#video-tutorial" class="md-skip">
+        <a href="#getting-started" class="md-skip">
           Skip to content
         </a>
       
@@ -70,16 +79,18 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../index.html" title="Track Studio" class="md-header__button md-logo" aria-label="Track Studio" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -91,12 +102,14 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Track Tutorial
+              Getting Started
             
           </span>
         </div>
       </div>
     </div>
+    
+      
     
     
     
@@ -128,7 +141,7 @@
     <a href="../index.html" title="Track Studio" class="md-nav__button md-logo" aria-label="Track Studio" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
     Track Studio
@@ -190,210 +203,54 @@
     
   
   
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
           Track Tutorial
           <span class="md-nav__icon md-icon"></span>
         </label>
       
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Track Tutorial
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
       <a href="Start.html" class="md-nav__link md-nav__link--active">
-        Track Tutorial
+        Getting Started
       </a>
       
-        
+    </li>
+  
 
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#video-tutorial" class="md-nav__link">
-    Video Tutorial
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    Getting Started
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-track-studio" class="md-nav__link">
-    Installing Track Studio
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#preparing-track" class="md-nav__link">
-    Preparing Track
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#creating-a-new-track" class="md-nav__link">
-    Creating a New Track
-  </a>
-  
-    <nav class="md-nav" aria-label="Creating a New Track">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#model-importing" class="md-nav__link">
-    Model Importing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#texture-importing" class="md-nav__link">
-    Texture Importing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#materials" class="md-nav__link">
-    Materials
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#finalizing-model" class="md-nav__link">
-    Finalizing Model
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#collision-editing" class="md-nav__link">
-    Collision Editing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#map-editing" class="md-nav__link">
-    Map Editing
-  </a>
-  
-    <nav class="md-nav" aria-label="Map Editing">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#objects" class="md-nav__link">
-    Objects
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lap-paths" class="md-nav__link">
-    Lap Paths
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ai-movement" class="md-nav__link">
-    AI Movement
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#item-shell-movement" class="md-nav__link">
-    Item Shell Movement
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#glider-paths" class="md-nav__link">
-    Glider Paths
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#anti-gravity" class="md-nav__link">
-    Anti Gravity
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cameras" class="md-nav__link">
-    Cameras
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lighting" class="md-nav__link">
-    Lighting
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#finalizing" class="md-nav__link">
-    Finalizing
-  </a>
-  
-    <nav class="md-nav" aria-label="Finalizing">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cemu-loading" class="md-nav__link">
-    Cemu Loading
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#wii-u-loading" class="md-nav__link">
-    Wii U Loading
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -409,17 +266,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_5">
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
           Map Editor
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Map Editor" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Map Editor
@@ -447,7 +305,7 @@
   
     <li class="md-nav__item">
       <a href="../map/CourseSettings.html" class="md-nav__link">
-        Course Settings
+        CourseSettings
       </a>
     </li>
   
@@ -461,7 +319,7 @@
   
     <li class="md-nav__item">
       <a href="../map/MapObject.html" class="md-nav__link">
-        Map Objects
+        MapObjects
       </a>
     </li>
   
@@ -475,7 +333,7 @@
   
     <li class="md-nav__item">
       <a href="../map/SoundObject.html" class="md-nav__link">
-        Sound Objects
+        SoundObjects
       </a>
     </li>
   
@@ -510,132 +368,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/LapPaths.html" class="md-nav__link">
-        Lap Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/EnemyPaths.html" class="md-nav__link">
-        Enemy Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/ItemPaths.html" class="md-nav__link">
-        Item Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/GliderPaths.html" class="md-nav__link">
-        Glider Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/GravityPaths.html" class="md-nav__link">
-        Gravity Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/RailPaths.html" class="md-nav__link">
-        Rail Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/ReplayCameras.html" class="md-nav__link">
-        Replay Cameras
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/PullPaths.html" class="md-nav__link">
-        Pull Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../map/SteerAssist.html" class="md-nav__link">
-        Steer Assist Paths
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -653,17 +385,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
           Model Editor
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Model Editor" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Model Editor
@@ -767,25 +500,44 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Collison Editor
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Collison Editor
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
       <a href="../col/Collison.html" class="md-nav__link">
-        Collison Editor
+        Kcl
       </a>
     </li>
   
 
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../minimap/Minimap.html" class="md-nav__link">
-        Mini Map Editor
-      </a>
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -801,18 +553,19 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_9">
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
           Light Editor
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Light Editor" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Light Editor
         </label>
@@ -883,186 +636,8 @@
   
   
   
+    
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#video-tutorial" class="md-nav__link">
-    Video Tutorial
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#getting-started" class="md-nav__link">
-    Getting Started
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installing-track-studio" class="md-nav__link">
-    Installing Track Studio
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#preparing-track" class="md-nav__link">
-    Preparing Track
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#creating-a-new-track" class="md-nav__link">
-    Creating a New Track
-  </a>
-  
-    <nav class="md-nav" aria-label="Creating a New Track">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#model-importing" class="md-nav__link">
-    Model Importing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#texture-importing" class="md-nav__link">
-    Texture Importing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#materials" class="md-nav__link">
-    Materials
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#finalizing-model" class="md-nav__link">
-    Finalizing Model
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#collision-editing" class="md-nav__link">
-    Collision Editing
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#map-editing" class="md-nav__link">
-    Map Editing
-  </a>
-  
-    <nav class="md-nav" aria-label="Map Editing">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#objects" class="md-nav__link">
-    Objects
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lap-paths" class="md-nav__link">
-    Lap Paths
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#ai-movement" class="md-nav__link">
-    AI Movement
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#item-shell-movement" class="md-nav__link">
-    Item Shell Movement
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#glider-paths" class="md-nav__link">
-    Glider Paths
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#anti-gravity" class="md-nav__link">
-    Anti Gravity
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#cameras" class="md-nav__link">
-    Cameras
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#lighting" class="md-nav__link">
-    Lighting
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#finalizing" class="md-nav__link">
-    Finalizing
-  </a>
-  
-    <nav class="md-nav" aria-label="Finalizing">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#cemu-loading" class="md-nav__link">
-    Cemu Loading
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#wii-u-loading" class="md-nav__link">
-    Wii U Loading
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
   
 </nav>
                   </div>
@@ -1070,182 +645,29 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
+                  
 
-  <h1>Track Tutorial</h1>
 
-<h2 id="video-tutorial">Video Tutorial</h2>
-<p><strong>Coming soon</strong></p>
-<h2 id="getting-started">Getting Started</h2>
-<p>Requirements:</p>
-<ul>
-<li>A 3D program like blender, 3ds max, maya, etc for making models.</li>
-<li>An image software for making and editing textures like paint dot net, gimp, photoshop, etc.</li>
-<li>This software (Track Studio)</li>
-<li>Switch Toolbox (optional but may be needed for additional edits)</li>
-</ul>
-<h2 id="installing-track-studio">Installing Track Studio</h2>
-<p>Installing the tool requires <a href="https://dotnet.microsoft.com/en-us/download/dotnet/5.0">net 5.0.</a> so make sure that is installed.
-Then you can extract the .zip from the releases then run the .exe.
-For other platforms you can run in the cmd <code>dotnet MapStudio.dll</code></p>
-<h2 id="preparing-track">Preparing Track</h2>
-<p>You want to decide what track to create. It can be a port of an existing track or you can make one from scatch.
-There isn't a particular poly limit but anything under 300k polys should be fine. </p>
-<p>The requirements for your model is that you scale it to match a MK8 course before you import it in game.</p>
-<p>This tutorial will use the start grid model which you can download <a href="https://drive.google.com/file/d/10D80HXLJ6jnz8Mbz0hVu4l4B-eBxpCkw/view?usp=sharing">here</a>.</p>
-<p><img alt="Screenshot" src="img/ModelPrepare1.png" /></p>
-<p>Scale your map model so the road fits with this object. The grid represents where each player will spawn.
-Once you scale it you can optionally keep it so you can view the markers for where players would go.</p>
-<p>Save your scene as a .blend, .max, or whatever program you are using so you can load it back later. You may want to update the model for things like baked shadows, lighting later on.</p>
-<p>Next you want to export your model as either .dae or .fbx. This will be used for importing into the tool.</p>
-<h2 id="creating-a-new-track">Creating a New Track</h2>
-<h3 id="model-importing">Model Importing</h3>
-<p>Open Track Studio and go to File - New - Custom Track</p>
-<p><img alt="Screenshot" src="img/NewCourse.png" /></p>
-<p><img alt="Screenshot" src="img/Pic3.png" /></p>
-<p>You want to check <strong>Mario Kart 8 Deluxe Map</strong> if you are making one for the Switch version, else it is for Wii U.</p>
-<p>Select your exported .dae/.fbx model in the <strong>Model File</strong> selector.</p>
-<p><img alt="Screenshot" src="img/Pic4.png" /></p>
-<p>Now click <strong>Ok</strong>.</p>
-<p>Your model will now be imported.</p>
-<p>You can move the camera with WASD and spacebar to move up, shift + spacebar to move down.</p>
-<p>Once you have your model imported, now we need to do textures.</p>
-<h3 id="texture-importing">Texture Importing</h3>
-<p><img alt="Screenshot" src="img/Pic5.png" /></p>
-<p>Right click on the Textures folder then click Import Texture. Select all the textures you need to import for your map.</p>
-<p><img alt="Screenshot" src="img/Pic6.png" /></p>
-<p>Set the formats as such:</p>
-<ul>
-<li>Diffuse Map : BC1 SRGB or BC3 SRGB for translucent</li>
-<li>Normal Map : BC1 Unorm </li>
-<li>Specular Map : BC4 Unorm (unless you want color which requires BC3 Unorm)</li>
-<li>Light Map - BC3 Unorm</li>
-<li>Shadow Map - BC1 Unorm</li>
-</ul>
-<p><strong>If you have a shadow or light map you should make the mip count 1.</strong></p>
-<p><img alt="Screenshot" src="../bfres/img/BakeMapMipCount.png" /></p>
-<p>When that is selected you can click Ok.</p>
-<p><img alt="Screenshot" src="img/Pic7.png" /></p>
-<p>All that is left is to do materials to finish the model!</p>
-<h3 id="materials">Materials</h3>
-<p>To edit a material, either select the mesh in the viewer or select the material in the tree.</p>
-<p>For a detailed guide at editing these, please refer to <a href="../bfres/Materials.html">this</a> section.</p>
-<p><img alt="Screenshot" src="img/Pic8.png" /></p>
-<h3 id="finalizing-model">Finalizing Model</h3>
-<p>File - Save or CTRL + S while in the model editor tab to save your model.</p>
-<p><img alt="Screenshot" src="img/Pic9.png" /></p>
-<p>Save it to a new folder. We will store all the course contents in this folder.</p>
-<p>Next we will cover collision editing. It is suggested you continue to this step as collision is super useful for the map editor later.</p>
-<h3 id="collision-editing">Collision Editing</h3>
-<p>You can edit collision in the Collision Editor tab.</p>
-<p><img alt="Screenshot" src="img/Pic10.png" /></p>
-<p>For a detailed guide at editing these, please refer to <a href="../col/Collison.html">this</a> section.</p>
-<p>When finished make sure you File - Save the collision (or CTRL + S).</p>
-<h3 id="map-editing">Map Editing</h3>
-<p>You can edit map object/paths/cameras in the Map Editor tab.</p>
-<p><img alt="Screenshot" src="img/Pic11.png" /></p>
-<p>Here we will place our starting point at so players will spawn there.</p>
-<p>If you did the collision from earlier, you can snap these directly onto the model.</p>
-<p><img alt="Screenshot" src="img/Pic12.png" /></p>
-<p>If you need to place it in a more precise way, you can edit in the properties window.</p>
-<p><img alt="Screenshot" src="img/Pic13.png" /></p>
-<p>Now for your map to be functional, you need atleast <strong>Lap Paths and Enemy Paths</strong>. Guides on these are below!</p>
-<h4 id="objects">Objects</h4>
-<p>To place down item boxes, coins, and other objects you can follow this guide <a href="../map/MapObject.html">here</a>.</p>
-<h4 id="lap-paths">Lap Paths</h4>
-<p>Lap paths control the boundaries of the map, where to respawn the player, and keeps track of player's place in the lap which you can follow <a href="../map/LapPaths.html">here</a>.</p>
-<h4 id="ai-movement">AI Movement</h4>
-<p>Enemy paths that control AI movement which you can follow <a href="../map/EnemyPaths.html">here</a>.</p>
-<h4 id="item-shell-movement">Item Shell Movement</h4>
-<p>Item paths that can control the red and blue shell movements. You can follow <a href="../map/ItemPaths.html">here</a>. These can be mostly created from enemy paths from earlier.</p>
-<h4 id="glider-paths">Glider Paths</h4>
-<p>If you need to add a glider, you can follow <a href="../map/GliderPaths.html">here</a>.</p>
-<h4 id="anti-gravity">Anti Gravity</h4>
-<p>Then lastly if you are doing an anti gravity track, you can follow <a href="../map/GravityPaths.html">here</a>. </p>
-<p>They control when to activate anti gravity, the direction of gravity, and camera angle.</p>
-<h4 id="cameras">Cameras</h4>
-<ul>
-<li>Opening Camera <a href="../map/IntroCameraEditor.html">guide</a>. </li>
-<li>Replay Camera (optional for offline but online mode may require to add some for spectators) <a href="../map/ReplayCameras.html">guide</a>. </li>
-</ul>
-<h3 id="lighting">Lighting</h3>
-<p>You first need to make sure you have a course.bgenv file. You can copy one from any existing MK8 map in the course folder.</p>
-<p>Open your .byaml to load the map, then follow the lighting tutorial <a href="../env/AreaLight.html">here</a>. </p>
-<h3 id="finalizing">Finalizing</h3>
-<p>With those guides done you can play the map! Make sure you File - Save or CTRL + S in map editor to save you settings!</p>
-<p>To load the map you have 2 options.</p>
-<h4 id="cemu-loading">Cemu Loading</h4>
-<p>For using the Cemu emulator, you want to use graphic packs to store your mods in.</p>
-<p>Open the <strong>graphicPacks</strong> folder in your Cemu directory. </p>
-<p>Create a new folder and call it a name.</p>
-<p><img alt="Screenshot" src="img/Pic15.png" /></p>
-<p>Next go into that folder. Create a new text file and call it rules.txt. Paste this in</p>
-<pre><code>[Definition]
-titleIds = 000500001010ec00,000500001010ed00,000500001010eb00
-name = Resolution
-path = &quot;Mario Kart 8/Mods/CustomTrackTest&quot;
-description = A MK8 mod.
-version = 3
-</code></pre>
-<p>You can edit the <strong>path</strong> to whatever you like.</p>
-<p>Now add a <strong>content</strong> folder.</p>
-<p><img alt="Screenshot" src="img/Pic16.png" /></p>
-<p>Place the game files you modify in the content folder.</p>
-<p>Courses will go in like this.</p>
-<p><img alt="Screenshot" src="img/Pic17.png" /></p>
-<p>Lastly we need to enable it to use with Cemu.</p>
-<p>Open Cemu and load the graphic pack from <strong>Options - Graphic Packs</strong></p>
-<p><img alt="Screenshot" src="img/Pic18.png" /></p>
-<p>Toggle your mod. Once you boot the game, your mods will load properly!</p>
-<h4 id="wii-u-loading">Wii U Loading</h4>
-<p>Follow this guide <a href="https://gamebanana.com/tuts/12342">here</a></p>
+<h1 id="getting-started">Getting Started</h1>
 
-              
-            </article>
-          </div>
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
         </div>
         
       </main>
       
         <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="../viewer/Viewer.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Viewer" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Viewer
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../map/Byaml.html" class="md-footer__link md-footer__link--next" aria-label="Next: Byaml" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Byaml
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -1267,10 +689,11 @@ version = 3
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.960e086b.min.js"></script>
+      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
       
     
   </body>

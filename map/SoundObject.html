@@ -8,36 +8,45 @@
       
       
       
+      
+        <link rel="prev" href="MapObject.html">
+      
+      
+        <link rel="next" href="Area.html">
+      
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.8">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.8">
     
     
       
-        <title>Sound Objects - Track Studio</title>
+        <title>SoundObjects - Track Studio</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.6e60f8b8.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
         
-      
-    
-    
-    
-      
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
     
-    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
+    
     
     
   </head>
@@ -48,7 +57,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent="">
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
   
     
     
@@ -70,16 +79,18 @@
     
       
 
-<header class="md-header" data-md-component="header">
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
     <a href="../index.html" title="Track Studio" class="md-header__button md-logo" aria-label="Track Studio" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
     </label>
     <div class="md-header__title" data-md-component="header-title">
       <div class="md-header__ellipsis">
@@ -91,12 +102,14 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Sound Objects
+              SoundObjects
             
           </span>
         </div>
       </div>
     </div>
+    
+      
     
     
     
@@ -128,7 +141,7 @@
     <a href="../index.html" title="Track Studio" class="md-nav__button md-logo" aria-label="Track Studio" data-md-component="logo">
       
   
-  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
 
     </a>
     Track Studio
@@ -188,10 +201,44 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+          Track Tutorial
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Track Tutorial
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
       <a href="../tutorial/Start.html" class="md-nav__link">
-        Track Tutorial
+        Getting Started
       </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -209,17 +256,18 @@
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
       
       
       
-      
-        <label class="md-nav__link" for="__nav_5">
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
           Map Editor
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Map Editor" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
           Map Editor
@@ -247,7 +295,7 @@
   
     <li class="md-nav__item">
       <a href="CourseSettings.html" class="md-nav__link">
-        Course Settings
+        CourseSettings
       </a>
     </li>
   
@@ -261,7 +309,7 @@
   
     <li class="md-nav__item">
       <a href="MapObject.html" class="md-nav__link">
-        Map Objects
+        MapObjects
       </a>
     </li>
   
@@ -277,19 +325,19 @@
   
     <li class="md-nav__item md-nav__item--active">
       
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
         
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          Sound Objects
+          SoundObjects
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="SoundObject.html" class="md-nav__link md-nav__link--active">
-        Sound Objects
+        SoundObjects
       </a>
       
         
@@ -372,132 +420,6 @@
 
             
           
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="LapPaths.html" class="md-nav__link">
-        Lap Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="EnemyPaths.html" class="md-nav__link">
-        Enemy Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ItemPaths.html" class="md-nav__link">
-        Item Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="GliderPaths.html" class="md-nav__link">
-        Glider Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="GravityPaths.html" class="md-nav__link">
-        Gravity Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="RailPaths.html" class="md-nav__link">
-        Rail Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ReplayCameras.html" class="md-nav__link">
-        Replay Cameras
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="PullPaths.html" class="md-nav__link">
-        Pull Paths
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="SteerAssist.html" class="md-nav__link">
-        Steer Assist Paths
-      </a>
-    </li>
-  
-
-            
-          
         </ul>
       </nav>
     </li>
@@ -515,17 +437,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_6">
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
           Model Editor
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Model Editor" data-md-level="1">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_6">
           <span class="md-nav__icon md-icon"></span>
           Model Editor
@@ -629,25 +552,44 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+          Collison Editor
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7">
+          <span class="md-nav__icon md-icon"></span>
+          Collison Editor
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
     <li class="md-nav__item">
       <a href="../col/Collison.html" class="md-nav__link">
-        Collison Editor
+        Kcl
       </a>
     </li>
   
 
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../minimap/Minimap.html" class="md-nav__link">
-        Mini Map Editor
-      </a>
+            
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -663,18 +605,19 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
       
       
       
-      
-        <label class="md-nav__link" for="__nav_9">
+        <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
           Light Editor
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="Light Editor" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Light Editor
         </label>
@@ -790,95 +733,29 @@
               </div>
             
           
-          <div class="md-content" data-md-component="content">
-            <article class="md-content__inner md-typeset">
-              
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
+                  
 
-<h1 id="sound-objects">Sound Objects</h1>
+
+<div><h1 id="sound-objects">Sound Objects</h1>
 <p>These are objects which produce sound when you go near it. The sounds that play however are determined by another file which is not editable atm.
 Currently you can place these objects down and try to use existing sounds from the map you are currently over.</p>
 <h2 id="editing">Editing</h2>
 <p>You can switch to the sound object editor under the editor list.</p>
-<p><img alt="Screenshot" src="img/SoundObjectEditor.png" /></p>
+<p><img alt="Screenshot" src="img/SoundObjectEditor.png"></p>
 <h2 id="shortcuts">Shortcuts</h2>
-<table>
-<thead>
-<tr>
-<th>Shortcuts</th>
-<th>Effect</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><kbd>Alt</kbd> + Mouse Down</td>
-<td>Adds object.</td>
-</tr>
-<tr>
-<td><kbd>Del</kbd></td>
-<td>Delete</td>
-</tr>
-<tr>
-<td><kbd>Q</kbd></td>
-<td>Also can add objects.</td>
-</tr>
-<tr>
-<td><kbd>Ctrl</kbd> + <kbd>D</kbd></td>
-<td>Duplicate</td>
-</tr>
-<tr>
-<td><kbd>Ctrl</kbd> + <kbd>C</kbd></td>
-<td>Copy</td>
-</tr>
-<tr>
-<td><kbd>Ctrl</kbd> + <kbd>V</kbd></td>
-<td>Paste</td>
-</tr>
-<tr>
-<td><kbd>1</kbd></td>
-<td>Activates movement tool</td>
-</tr>
-<tr>
-<td><kbd>2</kbd></td>
-<td>Activates rotation tool</td>
-</tr>
-<tr>
-<td><kbd>3</kbd></td>
-<td>Activates scale tool</td>
-</tr>
-<tr>
-<td><kbd>G</kbd></td>
-<td>Move</td>
-</tr>
-<tr>
-<td><kbd>R</kbd></td>
-<td>Rotate</td>
-</tr>
-<tr>
-<td><kbd>T</kbd></td>
-<td>Scale</td>
-</tr>
-<tr>
-<td><kbd>X</kbd></td>
-<td>Lock X Axis</td>
-</tr>
-<tr>
-<td><kbd>Y</kbd></td>
-<td>Lock Y Axis</td>
-</tr>
-<tr>
-<td><kbd>Z</kbd></td>
-<td>Lock Z Axis</td>
-</tr>
-<tr>
-<td><kbd>B</kbd></td>
-<td>Selection Box</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><strong>Alt + Left Mouse</strong> to add</li>
+<li><strong>Del</strong> to delete</li>
+<li><strong>Ctrl + C</strong> to copy</li>
+<li><strong>Ctrl + V</strong> to paste</li>
+</ul>
 <p>If you have the <strong>Drop Objects to Collision</strong> option toggled up top, this will spawn it above the nearest collision.</p>
 <h2 id="toolbar">Toolbar</h2>
-<p><img alt="Screenshot" src="img/ToolbarCommon.png" /></p>
+<p><img alt="Screenshot" src="img/ToolbarCommon.png"></p>
 <p>From left to right the menus control:
 - Adds object (near camera)
 - Removes object
@@ -886,7 +763,7 @@ Currently you can place these objects down and try to use existing sounds from t
 - Paste</p>
 <h2 id="properties">Properties</h2>
 <p>When you select an object, they will have properties in the properties window.</p>
-<p><img alt="Screenshot" src="img/SoundObjProperties.png" /></p>
+<p><img alt="Screenshot" src="img/SoundObjProperties.png"></p>
 <ul>
 <li><strong>Multi2P</strong> (Use in 2 player local multiplayer)</li>
 <li><strong>Multi4P</strong> (Use in 4 player local multiplayer)</li>
@@ -897,51 +774,22 @@ Currently you can place these objects down and try to use existing sounds from t
 <li><strong>Top View</strong> (Unknown usage)</li>
 <li><strong>Single</strong> (Unknown usage)</li>
 <li><strong>Sound ID</strong> (the id of the sound. The game uses .slink to know what sounds to play per course which cannot be edited atm.)</li>
-</ul>
+</ul></div>
 
-              
-            </article>
-          </div>
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
         </div>
         
       </main>
       
         <footer class="md-footer">
-  
-    <nav class="md-footer__inner md-grid" aria-label="Footer">
-      
-        
-        <a href="MapObject.html" class="md-footer__link md-footer__link--prev" aria-label="Previous: Map Objects" rel="prev">
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
-          </div>
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Previous
-              </span>
-              Map Objects
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="Area.html" class="md-footer__link md-footer__link--next" aria-label="Next: Areas" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
-              Areas
-            </div>
-          </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
-        </a>
-      
-    </nav>
   
   <div class="md-footer-meta md-typeset">
     <div class="md-footer-meta__inner md-grid">
@@ -963,10 +811,11 @@ Currently you can place these objects down and try to use existing sounds from t
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "..", "features": [], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.22074ed6.min.js"}</script>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.960e086b.min.js"></script>
+      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
       
     
   </body>

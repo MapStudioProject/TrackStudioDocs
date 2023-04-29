@@ -1,0 +1,1059 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="GravityPaths.html">
+      
+      
+        <link rel="next" href="ReplayCameras.html">
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.1.8">
+    
+    
+      
+        <title>Rail Paths - Track Studio</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.ded33207.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.a0c5b2b5.min.css">
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#rail-paths" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../index.html" title="Track Studio" class="md-header__button md-logo" aria-label="Track Studio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Track Studio
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Rail Paths
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../index.html" title="Track Studio" class="md-nav__button md-logo" aria-label="Track Studio" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Track Studio
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../index.html" class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../setup/Setup.html" class="md-nav__link">
+        Setup
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../viewer/Viewer.html" class="md-nav__link">
+        Viewer
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tutorial/Start.html" class="md-nav__link">
+        Track Tutorial
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" checked>
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+          Map Editor
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="true">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Map Editor
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Byaml.html" class="md-nav__link">
+        Byaml
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="CourseSettings.html" class="md-nav__link">
+        Course Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="MapObject.html" class="md-nav__link">
+        Map Objects
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SoundObject.html" class="md-nav__link">
+        Sound Objects
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="Area.html" class="md-nav__link">
+        Areas
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="IntroCameraEditor.html" class="md-nav__link">
+        Intro Camera
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="LapPaths.html" class="md-nav__link">
+        Lap Paths
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="EnemyPaths.html" class="md-nav__link">
+        Enemy Paths
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ItemPaths.html" class="md-nav__link">
+        Item Paths
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GliderPaths.html" class="md-nav__link">
+        Glider Paths
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="GravityPaths.html" class="md-nav__link">
+        Gravity Paths
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Rail Paths
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="RailPaths.html" class="md-nav__link md-nav__link--active">
+        Rail Paths
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creation" class="md-nav__link">
+    Creation
+  </a>
+  
+    <nav class="md-nav" aria-label="Creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#normal-curve" class="md-nav__link">
+    Normal Curve
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bezier-curve" class="md-nav__link">
+    Bezier Curve
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#circle-bezier-curve" class="md-nav__link">
+    Circle Bezier Curve
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#looping" class="md-nav__link">
+    Looping
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-paths" class="md-nav__link">
+    Object Paths
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jugem-paths" class="md-nav__link">
+    Jugem Paths
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linking-to-objects" class="md-nav__link">
+    Linking to Objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monty-molechoropoo-paths" class="md-nav__link">
+    Monty Mole/Choropoo Paths
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="ReplayCameras.html" class="md-nav__link">
+        Replay Cameras
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="PullPaths.html" class="md-nav__link">
+        Pull Paths
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="SteerAssist.html" class="md-nav__link">
+        Steer Assist Paths
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+          Model Editor
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_6">
+          <span class="md-nav__icon md-icon"></span>
+          Model Editor
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bfres/Bfres.html" class="md-nav__link">
+        Bfres
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bfres/Model.html" class="md-nav__link">
+        Model
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bfres/Materials.html" class="md-nav__link">
+        Materials
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bfres/Texture.html" class="md-nav__link">
+        Texture
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bfres/SkeletalAnim.html" class="md-nav__link">
+        SkeletalAnim
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../bfres/MaterialAnim.html" class="md-nav__link">
+        MaterialAnim
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../col/Collison.html" class="md-nav__link">
+        Collison Editor
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../minimap/Minimap.html" class="md-nav__link">
+        Mini Map Editor
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+      
+      
+      
+        <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+          Light Editor
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_9">
+          <span class="md-nav__icon md-icon"></span>
+          Light Editor
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../env/ColorCorrection.html" class="md-nav__link">
+        Color Correction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../env/AreaLight.html" class="md-nav__link">
+        Area Lights
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../env/ProbeLight.html" class="md-nav__link">
+        Probe Lights
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#creation" class="md-nav__link">
+    Creation
+  </a>
+  
+    <nav class="md-nav" aria-label="Creation">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#normal-curve" class="md-nav__link">
+    Normal Curve
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#bezier-curve" class="md-nav__link">
+    Bezier Curve
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#circle-bezier-curve" class="md-nav__link">
+    Circle Bezier Curve
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#looping" class="md-nav__link">
+    Looping
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#object-paths" class="md-nav__link">
+    Object Paths
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#jugem-paths" class="md-nav__link">
+    Jugem Paths
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linking-to-objects" class="md-nav__link">
+    Linking to Objects
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#monty-molechoropoo-paths" class="md-nav__link">
+    Monty Mole/Choropoo Paths
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<div><h1 id="rail-paths">Rail Paths</h1>
+<p>This path type is for moving map objects and cameras around.</p>
+<h2 id="creation">Creation</h2>
+<p>To start you want to enter the rail path editor.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic1.png"></p>
+<p>You have 3 path objects you can choose from.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic2.png"></p>
+<ul>
+<li>Normal : Adds a normal path.</li>
+<li>Bezier : Adds a bezier path which has handles to control curves. Best for smooth curves.</li>
+<li>Circle : Adds a bezier circle path.</li>
+</ul>
+<p>When you create your path make sure to select it, then press <kbd>Tab</kbd> to go into edit mode.</p>
+<p>Scale it with <kbd>T</kbd> and make sure the points have some distance to edit with.</p>
+<h3 id="normal-curve">Normal Curve</h3>
+<p>These are similar to enemy and item paths.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic5.png"></p>
+<table>
+<thead>
+<tr>
+<th>Shortcuts</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><kbd>Tab</kbd></td>
+<td>Go into edit mode for the selected path(s)</td>
+</tr>
+<tr>
+<td>Hold <kbd>Ctrl</kbd></td>
+<td>Move both handles as one line if one is being moved around.</td>
+</tr>
+<tr>
+<td><kbd>E</kbd></td>
+<td>Extrudes. If you extrude in an already connected point, it'll extrude but connect to that current point.</td>
+</tr>
+<tr>
+<td><kbd>G</kbd></td>
+<td>Move</td>
+</tr>
+<tr>
+<td><kbd>R</kbd></td>
+<td>Rotate</td>
+</tr>
+<tr>
+<td><kbd>T</kbd></td>
+<td>Scale</td>
+</tr>
+</tbody>
+</table>
+<h3 id="bezier-curve">Bezier Curve</h3>
+<p><img alt="Screenshot" src="img/RailPaths/Pic3.png"></p>
+<p>A type with handles to control from. If you are familar with blender it controls very similar.</p>
+<table>
+<thead>
+<tr>
+<th>Shortcuts</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><kbd>Tab</kbd></td>
+<td>Go into edit mode for the selected path(s)</td>
+</tr>
+<tr>
+<td>Hold <kbd>Ctrl</kbd></td>
+<td>Move both handles as one line if one is being moved around.</td>
+</tr>
+<tr>
+<td><kbd>E</kbd></td>
+<td>Extrudes. If you extrude in an already connected point, it'll extrude but connect to that current point.</td>
+</tr>
+<tr>
+<td><kbd>G</kbd></td>
+<td>Moves both the point and handles if the point is selected.</td>
+</tr>
+<tr>
+<td><kbd>R</kbd></td>
+<td>Rotates the handles if the point is selected.</td>
+</tr>
+<tr>
+<td><kbd>T</kbd></td>
+<td>Scales the handles if the point is selected.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="circle-bezier-curve">Circle Bezier Curve</h3>
+<p>Same as a bezier curve but it is pre made as a circle.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic4.png"></p>
+<h2 id="looping">Looping</h2>
+<p>Select the path (out of edit mode) then check the loop property.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic7.png"></p>
+<h2 id="object-paths">Object Paths</h2>
+<p>The tool cannot directly edit object paths however you can turn rails to obj paths automatically with this setting.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic6.png"></p>
+<p>The benefit with this is that objects can move side to side (ie goombas) instead of turning and trying to loop.</p>
+<h2 id="jugem-paths">Jugem Paths</h2>
+<p>These types are not supported atm. These control lakitu movement during a return to the lap path return point.</p>
+<h2 id="linking-to-objects">Linking to Objects</h2>
+<p>Make sure both your rail and object path is visible by clicking on the eye in the tree.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic8.png"></p>
+<p>Next select your rail in the dropdown. This one is Path 7.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic9.png"></p>
+<p>Next we will set the speed.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic10.png"></p>
+<p>This speed property is usually needed for obj path types but it doesn't hurt to set it anyways.</p>
+<p>Next to be sure also set the point param property.</p>
+<p>Go into edit mode then select all your points. Here I will edit that to be about 50.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic11.png"></p>
+<p>Both these parameters control speed. Some objects use the object speed, some use the rail speed.</p>
+<p>The rail speed tends to be alot larger so I suggest using larger values (possibly total time to go through path),</p>
+<p>Keep in mind some map objects use rails differently.</p>
+<h2 id="monty-molechoropoo-paths">Monty Mole/Choropoo Paths</h2>
+<p>When you do these, the param 2 value determines for it to go out of the ground.</p>
+<p><img alt="Screenshot" src="img/RailPaths/Pic12.png"></p></div>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.51198bba.min.js"></script>
+      
+    
+  </body>
+</html>
